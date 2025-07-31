@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+
+}
+nav{
+	width: 100vw;
+	height: 24vh;
+	 background: #f9fafc; 
+	/*background-color: rgb(224, 227, 227);*/
+	border-bottom: 2px solid #e6e8eb;
+}
+
+nav h1,
+nav p{
+	
+    text-align: center;
+	line-height: 1.5;
+
+}
+nav p{
+	
+    
+
+}
+
+nav h1{
+	padding-top: 43px;
+
+}
+
+
+
+
+.main1{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom:60px;
+
+}
+.box {
+    font-family: sans-serif;
+    width: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+	position: relative;
+
+}
+.content {
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+
+}
+.box1{
+	align-self: end;
+	background: #f9fafc;
+	text-align: left;
+
+}
+
+
+.box h1{
+	font-size: 48px;
+}
+.box4 .btn {
+    color: white;
+}
+
+.top-p{
+	color: #0550ae;
+	margin-top: 30px;
+
+}
+.top-p-s{
+	color: white;
+    background: #0550ae;
+    padding: 1px 9px;
+    border-radius: 24px;
+    margin-top: 22px;
+
+}
+.down-p{
+	color: #545b68;
+	margin-bottom: 60px;
+
+}
+
+.box4{
+	background: black;
+	color: white;
+	position: relative;
+}
+.low-s{
+	
+}
+.box4-inner{
+	width: 100%;
+	height: 57px;
+    background-color: #7d4f1e;
+    position: absolute;
+    bottom: -42px;
+	
+}
+.box-inner{
+	width: 100%;
+	height: 57px;
+    position: absolute;
+    bottom: -42px;
+	
+}
+
+
+
+.bx4in{
+	top: 27px;
+	left: 46px;
+	color: white;
+
+}
+.btn{
+	position: absolute;
+    bottom: 90px;
+	color:  #0550ae;
+	font-weight: 600;
+}
+
+/* Media q for Mobile */
+@media (max-width: 500px) {
+	.box2{
+		display: none;
+	}
+	.box3{
+		display: none;
+	}
+	.box{
+		width: 300px;
+	}
+	.box1{
+		margin-left: 40px;
+	}
+	nav p{
+		margin-bottom: 50px;
+
+	}
+
+	
+  }
+
+  /* Media q for tablet */
+@media (max-width: 1024px) {
+	.box2{
+		display: none;
+	}
+	.box{
+		width: 180px;
+	}
+	.box1{
+		margin-left: 40px;
+	}
+	
+	
+	.bx4in{
+		top: 27px;
+		left: 36px;
+		color:  #0550ae;
+		font-size: 12px;
+	}
+	nav p{
+		margin-bottom: 50px;
+
+	}
+}
